@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>About Page</h1>
-  </div>
+  <footer>@copyrights Juan Castillo</footer>
 </template>
 
 <script>
