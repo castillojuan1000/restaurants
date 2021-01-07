@@ -1,11 +1,15 @@
 export const state = () => ({
-  fooddata : []
+  fooddata : [],
+  cart: []
 })
 
 
 export const mutations = {
   updateFoodData: (state, data) => {
     state.fooddata = data
+  },
+  addToCart: (state, formOutput) => {
+    state.cart.push(formOutput)
   }
 }
 
